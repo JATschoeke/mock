@@ -5,10 +5,10 @@
         "menus": [
             {
                 "label": "Execução de Coisas",
-                "sequence": "2",
+                "sequence": "1",
                 "subMenus": [
                     {
-                        "label": "Cadastra Proposta",
+                        "label": "Cadastrar Proposta",
                         "url": "proposta/control",
                         "sequence": "1"
                     },
@@ -17,122 +17,16 @@
                         "url": "https://www.google.com",
                         "sequence": "2",
                         "isLegacy": true
-                    },
-                    {
-                        "label": "Nível 3",
-                        "sequence": "3",
-                        "subMenus": [
-                            {
-                                "label": "Nível 4",
-                                "sequence": "1",
-                                "subMenus": [
-                                    {
-                                        "label": "Nível 5",
-                                        "url": "amostra/nivel5",
-                                        "sequence": "1"
-                                    }
-                                ]
-                            }
-                        ]
                     }
                 ]
             },
             {
-                "label": "Execução de Ensaios",
-                "sequence": "1",
+                "label": "Ensaios Técnicos",
+                "sequence": "2",
                 "subMenus": [
                     {
-                        "label": "Avaliação de coisas",
-                        "url": "amostra/coisas",
-                        "sequence": "2"
-                    },
-                    {
-                        "label": "Caderno de Análises",
-                        "url": "amostra/control",
-                        "sequence": "1"
-                    },
-                    {
-                        "label": "Google Maps",
-                        "url": "https://maps.google.com",
-                        "sequence": "3",
-                        "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "amostra/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "amostra/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "amostra/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Google Drive",
-                        "url": "https://drive.google.com",
-                        "sequence": "1",
-                        "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "amostra/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "amostra/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "amostra/item91",
+                        "label": "Avaliação",
+                        "url": "amostra/avaliacao",
                         "sequence": "1"
                     }
                 ]
@@ -144,155 +38,19 @@
         "sequence": "2",
         "menus": [
             {
-                "label": "Proposta",
+                "label": "Transações",
                 "sequence": "1",
                 "subMenus": [
                     {
-                        "label": "Cadastra Teste",
-                        "url": "amostra/teste",
+                        "label": "Relatório Mensal",
+                        "url": "financeiro/relatorio",
                         "sequence": "1"
                     },
                     {
-                        "label": "Nível 2",
+                        "label": "Google Sheets",
+                        "url": "https://sheets.google.com",
                         "sequence": "2",
-                        "subMenus": [
-                            {
-                                "label": "Nível 3",
-                                "sequence": "1",
-                                "subMenus": [
-                                    {
-                                        "label": "Nível 4",
-                                        "sequence": "1",
-                                        "subMenus": [
-                                            {
-                                                "label": "Nível 5",
-                                                "sequence": "1",
-                                                "subMenus": [
-                                                    {
-                                                        "label": "Nível 6",
-                                                        "sequence": "1",
-                                                        "subMenus": [
-                                                            {
-                                                                "label": "Nível 7",
-                                                                "sequence": "1",
-                                                                "subMenus": [
-                                                                    {
-                                                                        "label": "Nível 8",
-                                                                        "sequence": "1",
-                                                                        "subMenus": [
-                                                                            {
-                                                                                "label": "Nível 9",
-                                                                                "sequence": "1",
-                                                                                "subMenus": [
-                                                                                    {
-                                                                                        "label": "Nível 10",
-                                                                                        "url": "financeiro/nivel10",
-                                                                                        "sequence": "1"
-                                                                                    }
-                                                                                ]
-                                                                            }
-                                                                        ]
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 2",
-                "sequence": "2",
-                "subMenus": [
-                    {
-                        "label": "Google News",
-                        "url": "https://news.google.com",
-                        "sequence": "1",
                         "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "financeiro/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "financeiro/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "financeiro/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Item 6.1",
-                        "url": "financeiro/item61",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "financeiro/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "financeiro/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "financeiro/item91",
-                        "sequence": "1"
                     }
                 ]
             }
@@ -307,120 +65,8 @@
                 "sequence": "1",
                 "subMenus": [
                     {
-                        "label": "Google Sheets",
-                        "url": "https://sheets.google.com",
-                        "sequence": "1",
-                        "isLegacy": true
-                    },
-                    {
-                        "label": "Nível 2",
-                        "sequence": "2",
-                        "subMenus": [
-                            {
-                                "label": "Nível 3",
-                                "sequence": "1",
-                                "subMenus": [
-                                    {
-                                        "label": "Nível 4",
-                                        "sequence": "1",
-                                        "subMenus": [
-                                            {
-                                                "label": "Nível 5",
-                                                "url": "relatorios/nivel5",
-                                                "sequence": "1"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "label": "Sintéticos",
-                "sequence": "2",
-                "subMenus": [
-                    {
-                        "label": "Item 2.1",
-                        "url": "relatorios/item21",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "relatorios/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "relatorios/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "relatorios/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Item 6.1",
-                        "url": "relatorios/item61",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "relatorios/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "relatorios/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "relatorios/item91",
+                        "label": "Dashboard",
+                        "url": "relatorios/dash",
                         "sequence": "1"
                     }
                 ]
@@ -436,97 +82,8 @@
                 "sequence": "1",
                 "subMenus": [
                     {
-                        "label": "Google Accounts",
-                        "url": "https://accounts.google.com",
-                        "sequence": "1",
-                        "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Permissões",
-                "sequence": "2",
-                "subMenus": [
-                    {
-                        "label": "Item 2.1",
-                        "url": "configuracoes/item21",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "configuracoes/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "configuracoes/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "configuracoes/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Item 6.1",
-                        "url": "configuracoes/item61",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "configuracoes/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "configuracoes/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "configuracoes/item91",
+                        "label": "Permissões",
+                        "url": "config/permissoes",
                         "sequence": "1"
                     }
                 ]
@@ -542,98 +99,15 @@
                 "sequence": "1",
                 "subMenus": [
                     {
+                        "label": "Abrir Ticket",
+                        "url": "suporte/ticket",
+                        "sequence": "1"
+                    },
+                    {
                         "label": "Google Help",
                         "url": "https://support.google.com",
-                        "sequence": "1",
+                        "sequence": "2",
                         "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 2",
-                "sequence": "2",
-                "subMenus": [
-                    {
-                        "label": "Item 2.1",
-                        "url": "suporte/item21",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "suporte/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "suporte/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "suporte/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Item 6.1",
-                        "url": "suporte/item61",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "suporte/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "suporte/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "suporte/item91",
-                        "sequence": "1"
                     }
                 ]
             }
@@ -648,97 +122,8 @@
                 "sequence": "1",
                 "subMenus": [
                     {
-                        "label": "Google Cloud",
-                        "url": "https://cloud.google.com",
-                        "sequence": "1",
-                        "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 2",
-                "sequence": "2",
-                "subMenus": [
-                    {
-                        "label": "Item 2.1",
-                        "url": "auditoria/item21",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "auditoria/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "auditoria/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "auditoria/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Item 6.1",
-                        "url": "auditoria/item61",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "auditoria/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "auditoria/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "auditoria/item91",
+                        "label": "Acessos",
+                        "url": "auditoria/acessos",
                         "sequence": "1"
                     }
                 ]
@@ -754,98 +139,15 @@
                 "sequence": "1",
                 "subMenus": [
                     {
+                        "label": "Documentação",
+                        "url": "integracao/docs",
+                        "sequence": "1"
+                    },
+                    {
                         "label": "Google Developers",
                         "url": "https://developers.google.com",
-                        "sequence": "1",
+                        "sequence": "2",
                         "isLegacy": true
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 2",
-                "sequence": "2",
-                "subMenus": [
-                    {
-                        "label": "Item 2.1",
-                        "url": "integracoes/item21",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 3",
-                "sequence": "3",
-                "subMenus": [
-                    {
-                        "label": "Item 3.1",
-                        "url": "integracoes/item31",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 4",
-                "sequence": "4",
-                "subMenus": [
-                    {
-                        "label": "Item 4.1",
-                        "url": "integracoes/item41",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 5",
-                "sequence": "5",
-                "subMenus": [
-                    {
-                        "label": "Item 5.1",
-                        "url": "integracoes/item51",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 6",
-                "sequence": "6",
-                "subMenus": [
-                    {
-                        "label": "Item 6.1",
-                        "url": "integracoes/item61",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 7",
-                "sequence": "7",
-                "subMenus": [
-                    {
-                        "label": "Item 7.1",
-                        "url": "integracoes/item71",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 8",
-                "sequence": "8",
-                "subMenus": [
-                    {
-                        "label": "Item 8.1",
-                        "url": "integracoes/item81",
-                        "sequence": "1"
-                    }
-                ]
-            },
-            {
-                "label": "Submenu 9",
-                "sequence": "9",
-                "subMenus": [
-                    {
-                        "label": "Item 9.1",
-                        "url": "integracoes/item91",
-                        "sequence": "1"
                     }
                 ]
             }
